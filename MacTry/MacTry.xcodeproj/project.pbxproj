@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC177CAD16E04FAC005373A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC177CAC16E04FAC005373A4 /* Cocoa.framework */; };
+		BC177CB716E04FAC005373A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC177CB516E04FAC005373A4 /* InfoPlist.strings */; };
+		BC177CB916E04FAC005373A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC177CB816E04FAC005373A4 /* main.m */; };
+		BC177CBD16E04FAC005373A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC177CBB16E04FAC005373A4 /* Credits.rtf */; };
+		BC177CC016E04FAC005373A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC177CBF16E04FAC005373A4 /* AppDelegate.m */; };
+		BC177CC316E04FAC005373A4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC177CC116E04FAC005373A4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC177CA916E04FAC005373A4 /* MacTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC177CAC16E04FAC005373A4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC177CAF16E04FAC005373A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BC177CB016E04FAC005373A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC177CB116E04FAC005373A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC177CB416E04FAC005373A4 /* MacTry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacTry-Info.plist"; sourceTree = "<group>"; };
+		BC177CB616E04FAC005373A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC177CB816E04FAC005373A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC177CBA16E04FAC005373A4 /* MacTry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTry-Prefix.pch"; sourceTree = "<group>"; };
+		BC177CBC16E04FAC005373A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BC177CBE16E04FAC005373A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC177CBF16E04FAC005373A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC177CC216E04FAC005373A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC177CA616E04FAC005373A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC177CAD16E04FAC005373A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC177CA016E04FAC005373A4 = {
+			isa = PBXGroup;
+			children = (
+				BC177CB216E04FAC005373A4 /* MacTry */,
+				BC177CAB16E04FAC005373A4 /* Frameworks */,
+				BC177CAA16E04FAC005373A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC177CAA16E04FAC005373A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC177CA916E04FAC005373A4 /* MacTry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC177CAB16E04FAC005373A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC177CAC16E04FAC005373A4 /* Cocoa.framework */,
+				BC177CAE16E04FAC005373A4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC177CAE16E04FAC005373A4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC177CAF16E04FAC005373A4 /* AppKit.framework */,
+				BC177CB016E04FAC005373A4 /* CoreData.framework */,
+				BC177CB116E04FAC005373A4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BC177CB216E04FAC005373A4 /* MacTry */ = {
+			isa = PBXGroup;
+			children = (
+				BC177CBE16E04FAC005373A4 /* AppDelegate.h */,
+				BC177CBF16E04FAC005373A4 /* AppDelegate.m */,
+				BC177CC116E04FAC005373A4 /* MainMenu.xib */,
+				BC177CB316E04FAC005373A4 /* Supporting Files */,
+			);
+			path = MacTry;
+			sourceTree = "<group>";
+		};
+		BC177CB316E04FAC005373A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC177CB416E04FAC005373A4 /* MacTry-Info.plist */,
+				BC177CB516E04FAC005373A4 /* InfoPlist.strings */,
+				BC177CB816E04FAC005373A4 /* main.m */,
+				BC177CBA16E04FAC005373A4 /* MacTry-Prefix.pch */,
+				BC177CBB16E04FAC005373A4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC177CA816E04FAC005373A4 /* MacTry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC177CC616E04FAC005373A4 /* Build configuration list for PBXNativeTarget "MacTry" */;
+			buildPhases = (
+				BC177CA516E04FAC005373A4 /* Sources */,
+				BC177CA616E04FAC005373A4 /* Frameworks */,
+				BC177CA716E04FAC005373A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacTry;
+			productName = MacTry;
+			productReference = BC177CA916E04FAC005373A4 /* MacTry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC177CA116E04FAC005373A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = cmc;
+			};
+			buildConfigurationList = BC177CA416E04FAC005373A4 /* Build configuration list for PBXProject "MacTry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC177CA016E04FAC005373A4;
+			productRefGroup = BC177CAA16E04FAC005373A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC177CA816E04FAC005373A4 /* MacTry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC177CA716E04FAC005373A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC177CB716E04FAC005373A4 /* InfoPlist.strings in Resources */,
+				BC177CBD16E04FAC005373A4 /* Credits.rtf in Resources */,
+				BC177CC316E04FAC005373A4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC177CA516E04FAC005373A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC177CB916E04FAC005373A4 /* main.m in Sources */,
+				BC177CC016E04FAC005373A4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC177CB516E04FAC005373A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC177CB616E04FAC005373A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC177CBB16E04FAC005373A4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC177CBC16E04FAC005373A4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BC177CC116E04FAC005373A4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC177CC216E04FAC005373A4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC177CC416E04FAC005373A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC177CC516E04FAC005373A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC177CC716E04FAC005373A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacTry/MacTry-Prefix.pch";
+				INFOPLIST_FILE = "MacTry/MacTry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC177CC816E04FAC005373A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacTry/MacTry-Prefix.pch";
+				INFOPLIST_FILE = "MacTry/MacTry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC177CA416E04FAC005373A4 /* Build configuration list for PBXProject "MacTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC177CC416E04FAC005373A4 /* Debug */,
+				BC177CC516E04FAC005373A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC177CC616E04FAC005373A4 /* Build configuration list for PBXNativeTarget "MacTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC177CC716E04FAC005373A4 /* Debug */,
+				BC177CC816E04FAC005373A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC177CA116E04FAC005373A4 /* Project object */;
+}
