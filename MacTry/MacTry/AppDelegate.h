@@ -8,8 +8,23 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface myobject : NSObject{
+    double number;
+}
+
+@property (nonatomic, assign)  double number;
+
+@end
+
+
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    IBOutlet NSObjectController *controller;
+    myobject *mobj;
+    double length;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, retain) myobject *mobj;
+@property (nonatomic, retain) IBOutlet NSObjectController *controller;
 
 @end

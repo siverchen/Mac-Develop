@@ -8,7 +8,16 @@
 
 #import "AppDelegate.h"
 
+
+@implementation myobject
+
+@synthesize number;
+
+@end
+
 @implementation AppDelegate
+
+@synthesize mobj, controller;
 
 - (void)dealloc
 {
@@ -17,7 +26,22 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    
+    mobj = [[myobject alloc] init];
+    
+    [self addObserver:self forKeyPath:@"length" options:NSKeyValueObservingOptionNew context:NULL];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(log) userInfo:nil repeats:YES];
+}
+
+- (void)log{
+    NSLog(@"%f--- %f", mobj.number, length);
+}
+
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
+    
+    NSLog(@"%@", change);
 }
 
 @end
